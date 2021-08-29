@@ -7,13 +7,13 @@ import java.io.IOException;
 
 public class CopyFile {
 	public static void main(String[] args) {
-		// ���Ϻ��� ���α׷� ¥��
-		// ���� ���� �ٸ� ���� �ֱ�
+		// 파일복사 프로그램 짜기
+		// 읽은 정보 다른 곳에 넣기
 		// - InputStream, OutputStream
 		// - read, read([])
 		// - write, write([])
-		// �� byte �а� �� byte ����	10M���� �Ǵ� ������ ����
-		// ���� �̿��ϴ� ����		10M���� �Ǵ� ������ ����
+		// 한 byte 읽고 한 byte 쓰고 	10M 정도 되는 파일을 복사
+		// 버퍼를 이용한 버전			10M 정도 되는 파일을 복사
 		
 		FileInputStream input;
 		FileOutputStream output;
